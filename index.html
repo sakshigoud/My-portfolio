@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fd01ba06ac.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+       <div class="container">
+       <nav>
+        <h1>PORTFOLIO</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About me</a></li>    
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact us</a></li>
+        </ul>
+       </nav>
+       <div class="header-text">
+          <p>Web developer</p>
+          <h1>Hello, I'm  <span>Sakshi goud</span> <br>from Dewas.</h1><br>
+          <h3>"Let's work together to bring your ideas to life." </h3>
+         <button onclick="location.href='#about'" class="button">Know more about me</button>
+       </div>
+      </div>
+    </div>
+
+     <!--------About me------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="" alt="">
+                </div>
+                <div class="col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p class="subtitle1">Hello!,I'm Sakshi goud, a graduate with a degree in Computer science. 
+                    I have a passion for developing web applications that are both functional and visually appealing.
+                    My journey in web developement began with a fascination for technology and a love for problem solving.
+                    I'm skilled in a variety of technologies like HTML,CSS,Javascript,jQuery.Currently,I am worked as PHP developer intern at Bridgelogic Software ltd.
+                    I'm also well-versed in backend developement,having worked with PHP,
+                    and MYSQL database.I thrive in collabrative environments and am always eager to tackle new challenges.
+                    Feel free to explore my portfolio to see some of recent work , and don't hesitate to reach out.
+                    <Main></Main></p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div> 
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>Web developement</li>
+                                <li><span>Frontend languages:</span><br>HTML,CSS,Javascript,jQuery.</li>
+                                <li><span>Backend languages:</span><br>PHP,MySql.</li>
+                               <li>Bootstrap</li>
+                               <li>C,C++</li>
+                               <li>Data structure</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>Currently, I'm working as a PHP developer Intern <br>at Bridgelogic software ltd.<br><br>
+                                    And also I am working on various <span><br>
+                                     web developement projects. </span></li>         
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>  
+                                <li><span> From 2020-2023</span></li>
+                                <li>Graduation in BCA from <br>
+                                Holker science college,Indore.</li>
+                                <li><span> From 2019-2020</span></li>
+                                <li>XII(MP Board)<br>
+                                School of Excellence,Dewas.</li> 
+                                <li><span> From 2017-2018</span></li>
+                                <li>X(MP Board)<br>
+                                School of Excellence,Dewas. </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------Projects------>
+<div id="Projects">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="worklist">
+        <div class="work">
+            <img src="Images/dream decor.jpg">
+            <div class="info">
+                <h3>Dream decor</h3>
+                <p>
+                         Developed a dyanmic and responsive event decoration website using HTML,CSS,PHP,MQSQL.
+                         Implemented a user-friendly interface for clients to browse decoration options and submit requests.
+                         Implemented back-end fuctionality using PHP to handel user authentication form,submissions and data interactons.
+                         Designed a implemented a MYSQL database schema to store client information,decoration preferences and order details. 
+                </p>
+                <a href="https://github.com/sakshigoud/dream_decore"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+       
+        <div class="work">
+            <img src="Images/netflix.jpg">
+            <div class="info">
+                <h3>Netflix clone</h3>
+                 <p> Developed a Netflix clone to demonstrate proficiency in front-end web developement using HTML and CSS.
+                     Designed and implemented a responsive user interface that replicates the look and feel of Netflix,
+                     ensuring compatibility across various devices and screen sizes.
+                 </p>
+                <a href="https://github.com/sakshigoud/netflix"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+
+<!---Contact--->
+<div id="Contact">
+     <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="subtitle"></i>Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sakshigoud44@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>6232144509</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/sakshi-goud-a2a39923b"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="sakshigoud(Sakshi goud) (github.com)"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="Images/SAKSHIRESUME.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+           <form>
+             <input type="text" name="Name" placeholder="Your Name" required>
+             <input type="email" name="Email" placeholder="Your Email" required>
+             <textarea name="message" rows="6" placeholder="your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+           </form>
+        </div>
+    </div>   
+     </div>
+</div>
+    <script>
+           var tablinks = document.getElementsByClassName("tab-links");
+           var tabcontents =document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+             for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+             }
+             for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+             }
+             event.currentTarget.classList.add("active-link");
+             document.getElementById(tabname).classList.add("active-tab");
+           }
+
+    </script>
+</body>
+</html> 
